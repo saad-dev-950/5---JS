@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header, footer {
+    background-color: #1d3557;
+}
+
+.card {
+    min-height: 80px;
+    border: 1px solid #1d3557;
+    padding: 25px 35px;
+}
+
+#originalText {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 35px;
+}
+
+.card1 {
+    min-height: 250px;
+    border: 1px solid #1d3557;
+    padding: 16px 32px;
+    border-radius: 7px;
+    background-color: white;
+}

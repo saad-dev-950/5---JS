@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#click-btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid #1d3557;
+}
+
+#click-btn:hover {
+    background-image: linear-gradient(to right, #0b73b7, rgba(109, 168, 0, 0.71));
+    color: white;
+}

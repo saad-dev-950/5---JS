@@ -1,0 +1,27 @@
+body {
+    background-color: #c6fcff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#nav-top, #foot {
+    background-color: #1d3557;
+}
+
+.card {
+    min-height: 40px;
+    border: 1px solid #1d3557;
+}
+
+h3 {
+    display: flex;
+}
+
+ul li {
+	text-align: left;
+}
